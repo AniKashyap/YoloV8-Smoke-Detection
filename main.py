@@ -11,11 +11,11 @@ def runTraining():
 
     else:
         # Use this for continuing training
-        model = YOLO("C:/Users/Anirudh Kashyap/YOLOSMOKE/runs/detect/train9/weights/last.pt")
+        model = YOLO("C:/Users/Anirudh Kashyap/YOLOSMOKE/runs/detect/train10/weights/last.pt")
         model.resume = True
         print("Restarting training from a save point")
 
-    results = model.train(data="config.yaml", epochs=50)
+    results = model.train(data="config.yaml", epochs=100)
 
 
 if __name__ == "__main__":
