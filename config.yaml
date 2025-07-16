@@ -1,0 +1,7 @@
+path: C:\Users\Anirudh Kashyap\Downloads\Fire And Smoke 5.v1i.yolov8
+train: C:\Users\Anirudh Kashyap\Downloads\Fire And Smoke 5.v1i.yolov8/train/images
+val: C:\Users\Anirudh Kashyap\Downloads\Fire And Smoke 5.v1i.yolov8/train/images
+
+names:
+  0: smoke
+  1: fire
